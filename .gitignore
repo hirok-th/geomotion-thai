@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.blend1
+.venv/
+.env
+.env.*
+!.env.example
+node_modules/
+projects/
+renders/
+frames/
+cache/
+*.wav
+*.mp4
+*.mov

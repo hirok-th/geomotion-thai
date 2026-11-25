@@ -1,0 +1,9 @@
+{
+  "audio_sha256": "REPLACE_WITH_ACTUAL_AUDIO_SHA256",
+  "script_sha256": "REPLACE_WITH_ACTUAL_SCRIPT_SHA256",
+  "method": "listened and corrected against actual narration",
+  "reviewed": false,
+  "duration": 0,
+  "cues": [],
+  "anchors": {}
+}

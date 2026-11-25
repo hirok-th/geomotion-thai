@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "title": "[หัวข้อคลิปเมื่อผู้ใช้สั่งผลิต]",
+  "story_date": "2026-11-25",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "safe": {
+      "left": 0.07,
+      "right": 0.17,
+      "top": 0.1,
+      "bottom": 0.23
+    }
+  },
+  "script": "script.th.txt",
+  "timeline": "timeline.json",
+  "alignment": "alignment.json",
+  "tail_seconds": 0.5,
+  "audio": {
+    "provider": "Google AI Studio",
+    "file": "audio/narration.wav",
+    "model": null,
+    "voice": null,
+    "direction": "เล่าด้วยเสียงผู้ชายภาษาไทย น้ำเสียงจริงจัง หนักแน่น ดุดันอย่างมีชั้นเชิง มีพลังและความน่าเชื่อถือ ถ่ายทอดอารมณ์ตามเหตุการณ์ ออกเสียงไทยชัดเจน เน้นคำสำคัญ เว้นจังหวะอย่างเป็นธรรมชาติ เพิ่มแรงกดดันเฉพาะจุดสำคัญ รักษาความดังที่ฟังสบาย"
+  },
+  "geography": {
+    "terrain_mode": "dem",
+    "bbox": [
+      90,
+      -2,
+      115,
+      34
+    ],
+    "origin": [
+      100,
+      14
+    ],
+    "metres_per_unit": 100000,
+    "vertical_exaggeration": 24,
+    "dem_zoom": 7,
+    "triangle_area_deg2": 0.002,
+    "rivers": true,
+    "source_note": "Natural Earth 1:50m; Mapzen Terrarium DEM. Relief exaggerated 24× for mobile readability; boundaries generalized.",
+    "neighbour_triangle_area_deg2": 0.012
+  },
+  "countries": [
+    {
+      "iso": "THA",
+      "label": "ประเทศไทย",
+      "flag": {
+        "file": "data/flags/th.png",
+        "source_url": "https://flagcdn.com/w640/th.png",
+        "valid_from": "1917-09-28",
+        "valid_to": null,
+        "verified_for_story_date": true,
+        "note": "Five horizontal red-white-blue-white-red stripes; relative heights 1:1:2:1:1. Modern Thai flag."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "chiangmai",
+      "label": "เชียงใหม่",
+      "lonlat": [
+        98.9853,
+        18.7883
+      ],
+      "icon": "city",
+      "scale": 0.36,
+      "show_at": 9
+    },
+    {
+      "id": "bangkok",
+      "label": "กรุงเทพฯ",
+      "lonlat": [
+        100.5018,
+        13.7563
+      ],
+      "icon": "city",
+      "scale": 0.51,
+      "show_at": 11
+    },
+    {
+      "id": "gulf",
+      "label": "อ่าวไทย",
+      "lonlat": [
+        100.75,
+        13.1
+      ],
+      "icon": "ship",
+      "scale": 0.5,
+      "show_at": 17
+    }
+  ],
+  "routes": [
+    {
+      "id": "north-capital",
+      "coordinates": [
+        [
+          98.9853,
+          18.7883
+        ],
+        [
+          99.5,
+          17.8
+        ],
+        [
+          100.1,
+          16.3
+        ],
+        [
+          100.15,
+          15
+        ],
+        [
+          100.5018,
+          13.7563
+        ]
+      ],
+      "mode": "rail",
+      "vehicle": "train",
+      "vehicle_scale": 0.308,
+      "altitude_units": 0,
+      "style": "solid",
+      "color": [
+        1,
+        0.54,
+        0.025,
+        1
+      ],
+      "width": 0.035,
+      "schematic": true,
+      "source": "Illustrative connection between verified city coordinates; not the actual railway alignment"
+    },
+    {
+      "id": "air",
+      "coordinates": [
+        [
+          100.5018,
+          13.7563
+        ],
+        [
+          101.4,
+          15.7
+        ],
+        [
+          101.1,
+          18.9
+        ]
+      ],
+      "mode": "air",
+      "vehicle": "plane",
+      "vehicle_scale": 0.588,
+      "altitude_units": 0.35,
+      "style": "dashed",
+      "color": [
+        1,
+        0.85,
+        0.3,
+        1
+      ],
+      "width": 0.018,
+      "schematic": true,
+      "source": "Illustrative air motion; not a scheduled flight or navigation route"
+    }
+  ],
+  "camera": {
+    "portrait": [
+      {
+        "time": 0,
+        "target": [
+          100.5,
+          14.4
+        ],
+        "width": 14.5,
+        "tilt": 0,
+        "azimuth": 0
+      },
+      {
+        "time": 4.4,
+        "target": [
+          100.5,
+          14.4
+        ],
+        "width": 14.5,
+        "tilt": 0,
+        "azimuth": 0
+      },
+      {
+        "time": 8.5,
+        "target": [
+          100.15,
+          16.9
+        ],
+        "width": 7.6,
+        "tilt": 44,
+        "azimuth": -12
+      },
+      {
+        "time": 15.5,
+        "target": [
+          100.2,
+          15.8
+        ],
+        "width": 7.4,
+        "tilt": 48,
+        "azimuth": -6
+      },
+      {
+        "time": 21,
+        "target": [
+          100.4,
+          15.6
+        ],
+        "width": 8.6,
+        "tilt": 42,
+        "azimuth": 6
+      },
+      {
+        "time": 24,
+        "target": [
+          100.4,
+          15.5
+        ],
+        "width": 9.3,
+        "tilt": 38,
+        "azimuth": 8
+      }
+    ],
+    "landscape": [
+      {
+        "time": 0,
+        "target": [
+          100.6,
+          14.4
+        ],
+        "width": 35,
+        "tilt": 0,
+        "azimuth": 0
+      },
+      {
+        "time": 4.4,
+        "target": [
+          100.6,
+          14.4
+        ],
+        "width": 35,
+        "tilt": 0,
+        "azimuth": 0
+      },
+      {
+        "time": 8.5,
+        "target": [
+          100.1,
+          16.5
+        ],
+        "width": 18,
+        "tilt": 42,
+        "azimuth": -12
+      },
+      {
+        "time": 15.5,
+        "target": [
+          100.3,
+          15.6
+        ],
+        "width": 18,
+        "tilt": 48,
+        "azimuth": -6
+      },
+      {
+        "time": 24,
+        "target": [
+          100.5,
+          15
+        ],
+        "width": 21,
+        "tilt": 38,
+        "azimuth": 8
+      }
+    ]
+  },
+  "subtitles": {
+    "enabled": true,
+    "font": "Kanit",
+    "weight": "SemiBold",
+    "font_size_portrait": 58,
+    "font_size_landscape": 48,
+    "normal": "FFFFFF",
+    "highlight": "00D7FF",
+    "outline": 3,
+    "max_lines": 2
+  },
+  "watermark": {
+    "enabled": false,
+    "user_requested": false,
+    "file": null,
+    "position": "top-right",
+    "width_fraction": 0.1,
+    "opacity": 0.7,
+    "start": 0,
+    "end": 24
+  },
+  "screen_texts": [
+    {
+      "start": 0,
+      "end": 8.5,
+      "text": "ประเทศไทย",
+      "role": "title"
+    },
+    {
+      "start": 8.5,
+      "end": 24,
+      "text": "จากภูเขา สู่เมือง",
+      "role": "title"
+    }
+  ],
+  "claims": [
+    {
+      "text": "City coordinates identify Chiang Mai and Bangkok; route is schematic",
+      "source": "https://www.geonames.org/1153671/chiang-mai.html",
+      "status": "illustrative_only"
+    }
+  ],
+  "services": "services.json"
+}

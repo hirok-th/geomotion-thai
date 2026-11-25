@@ -1,0 +1,91 @@
+{
+  "duration": 24,
+  "timing_mode": "provisional_visual_demo",
+  "reviewed": false,
+  "audio_sha256": null,
+  "events": [
+    {
+      "id": "intro-th",
+      "kind": "country_intro",
+      "country": "THA",
+      "start": 0,
+      "end": 9,
+      "anchor": "ประเทศไทย",
+      "phases": {
+        "wide": 1,
+        "flag_in": 0.6,
+        "hold": 2.8,
+        "zoom_start": 4.4,
+        "flag_out_end": 7.3,
+        "tilt_end": 8.5
+      }
+    },
+    {
+      "id": "rail",
+      "kind": "route",
+      "route": "north-capital",
+      "start": 9,
+      "end": 17,
+      "anchor": "เส้นทาง"
+    },
+    {
+      "id": "air",
+      "kind": "route",
+      "route": "air",
+      "start": 17,
+      "end": 22.7,
+      "anchor": "ทางอากาศ"
+    }
+  ],
+  "preview_cues": [
+    {
+      "id": "s1",
+      "start": 0.5,
+      "end": 4.4,
+      "text": "ประเทศไทย\nมีอะไรมากกว่าที่เห็นบนแผนที่",
+      "keywords": [
+        "ประเทศไทย"
+      ]
+    },
+    {
+      "id": "s2",
+      "start": 4.6,
+      "end": 8.8,
+      "text": "เมื่อซูมเข้าไป\nภูเขาและที่ราบเริ่มเผยตัว",
+      "keywords": [
+        "ภูเขา",
+        "ที่ราบ"
+      ]
+    },
+    {
+      "id": "s3",
+      "start": 9,
+      "end": 13.2,
+      "text": "จากเชียงใหม่\nเส้นทางเชื่อมลงสู่กรุงเทพฯ",
+      "keywords": [
+        "เชียงใหม่",
+        "กรุงเทพฯ"
+      ]
+    },
+    {
+      "id": "s4",
+      "start": 13.4,
+      "end": 17,
+      "text": "พื้นที่ต่างกัน\nทำให้การเดินทางต่างกัน",
+      "keywords": [
+        "พื้นที่"
+      ]
+    },
+    {
+      "id": "s5",
+      "start": 17.2,
+      "end": 23.5,
+      "text": "ทั้งทางบก ทางน้ำ และทางอากาศ\nล้วนเชื่อมเรื่องราวเข้าด้วยกัน",
+      "keywords": [
+        "ทางบก",
+        "ทางน้ำ",
+        "ทางอากาศ"
+      ]
+    }
+  ]
+}

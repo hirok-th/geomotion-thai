@@ -1,0 +1,8 @@
+{
+  "name": "geomotion-thai",
+  "version": "1.0.1",
+  "description": "Thai geographic animation workflow with flag masks, 3D terrain, moving routes, Google AI Studio narration and Kanit captions. Media production starts only after an explicit clip request.",
+  "author": {
+    "name": "GeoMotion Thai"
+  }
+}

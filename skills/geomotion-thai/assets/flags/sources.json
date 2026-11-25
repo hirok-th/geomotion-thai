@@ -1,0 +1,9 @@
+{
+  "th.png": {
+    "source": "https://flagcdn.com/w640/th.png",
+    "design_reference": "https://www.thailand.go.th/page/flag",
+    "period": "modern",
+    "sha256": "62da51788e0589dc396ac775d5cc931393d1cb101b8863ee6058f7e1c99c0aef",
+    "use": "verify against story date before reusing"
+  }
+}

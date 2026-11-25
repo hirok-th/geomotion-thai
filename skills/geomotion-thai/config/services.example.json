@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "activation": {
+    "default_mode": "package_only",
+    "production_trigger": "explicit_user_clip_request",
+    "required_cli_flag": "--produce-media",
+    "connect_during_install": false
+  },
+  "google_ai_studio": {
+    "mode": "browser",
+    "url": "https://aistudio.google.com/generate-speech",
+    "authentication": "host_supported_secure_browser_handoff_when_producing",
+    "model": null,
+    "voice": null,
+    "gender_preference": "male",
+    "language": "th-TH"
+  },
+  "gemini_api": {
+    "enabled": false,
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/",
+    "api_key_env": "GEMINI_API_KEY",
+    "model": null,
+    "voice": null,
+    "requires_explicit_user_authorization": true
+  },
+  "voice_direction": "เล่าด้วยเสียงผู้ชายภาษาไทย น้ำเสียงจริงจัง หนักแน่น ดุดันอย่างมีชั้นเชิง ถ่ายทอดอารมณ์ เน้นคำสำคัญ และเว้นจังหวะเป็นธรรมชาติ",
+  "secrets": "Environment or host credential store only; never package keys, cookies or credentials."
+}

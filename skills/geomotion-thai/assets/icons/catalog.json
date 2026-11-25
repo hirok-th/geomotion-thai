@@ -1,0 +1,29 @@
+{
+  "license": "Original procedural models; same license as package code",
+  "models": [
+    "plane",
+    "train",
+    "track",
+    "ship",
+    "car",
+    "building",
+    "city",
+    "factory",
+    "mountain",
+    "tree",
+    "dam",
+    "reservoir",
+    "pin"
+  ],
+  "forward_axis": "+Y",
+  "up_axis": "+Z",
+  "units": "symbolic",
+  "editable_layers": true,
+  "reference_match": "stylized silhouette approximation, not photoreal reconstruction; see references/asset-comparison.md",
+  "arrowheads": [
+    "triangle",
+    "chevron",
+    "diamond",
+    "double"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "mode": "package_only",
+  "checked_at": "2026-11-25",
+  "passed": true,
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "media_created": false,
+  "renderer_launched": false,
+  "media_services_called": false,
+  "checks": "test_api_connection_stays_disabled (geomotion_offline_checks.PackageChecks.test_api_connection_stays_disabled) ... ok\ntest_default_cli_blocks_before_external_work (geomotion_offline_checks.PackageChecks.test_default_cli_blocks_before_external_work) ... ok\ntest_doctor_does_not_launch_binaries (geomotion_offline_checks.PackageChecks.test_doctor_does_not_launch_binaries) ... ok\ntest_installation_paths_are_read_only_plans (geomotion_offline_checks.PackageChecks.test_installation_paths_are_read_only_plans) ... ok\ntest_json_and_skill_frontmatter (geomotion_offline_checks.PackageChecks.test_json_and_skill_frontmatter) ... ok\ntest_production_context_is_opt_in_and_resets (geomotion_offline_checks.PackageChecks.test_production_context_is_opt_in_and_resets) ... ok\ntest_programmatic_media_functions_block (geomotion_offline_checks.PackageChecks.test_programmatic_media_functions_block) ... ok\ntest_project_templates_are_text_only_in_both_aspects (geomotion_offline_checks.PackageChecks.test_project_templates_are_text_only_in_both_aspects) ... ok\ntest_python_syntax_without_execution (geomotion_offline_checks.PackageChecks.test_python_syntax_without_execution) ... ok\ntest_referenced_docs_and_resources_exist (geomotion_offline_checks.PackageChecks.test_referenced_docs_and_resources_exist) ... ok\ntest_service_defaults_and_secret_separation (geomotion_offline_checks.PackageChecks.test_service_defaults_and_secret_separation) ... ok\ntest_upload_archives_and_reject_loose_root_files (geomotion_offline_checks.PackageChecks.test_upload_archives_and_reject_loose_root_files) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 2.065s\n\nOK\n",
+  "not_tested": [
+    "Actual acceptance in the user's Claude plugin/Skill upload UI",
+    "Claude CLI plugin validation/loading",
+    "Live Google AI Studio or Gemini API speech/models/voices",
+    "Actual speech emotion/pronunciation/consistency",
+    "Alignment against accepted narration",
+    "Media rendering or end-to-end export in this revision",
+    "Client-side discovery/execution in separately installed Claude Code/Codex/Antigravity"
+  ]
+}

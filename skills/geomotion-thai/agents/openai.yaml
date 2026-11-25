@@ -1,0 +1,13 @@
+interface:
+  display_name: GeoMotion Thai
+  short_description: Skill แผนที่ 2D–3D เริ่มผลิตสื่อเมื่อสั่งสร้างคลิป
+  default_prompt: ใช้ $geomotion-thai ตรวจความพร้อมของแพ็กเกจ โดยยังไม่สร้างสื่อ
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
